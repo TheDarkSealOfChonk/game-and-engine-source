@@ -1,0 +1,96 @@
+﻿  keyboard_movement_controller.cpp
+  te_command.cpp
+  te_logger.cpp
+  te_physics.cpp
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(936,9): error C2296: '^': not valid as left operand has type 'const T'
+          with
+          [
+              T=float
+          ]
+D:\Users\FSapo\source\repos\Egon Rise Of The Angels - V1\Egon Rise Of The Angels\te_physics.cpp(31,49): message : see reference to function template instantiation 'glm::vec<3,float,glm::packed_highp> glm::operator ^<float,glm::packed_highp>(const glm::vec<3,float,glm::packed_highp> &,const glm::vec<3,float,glm::packed_highp> &)' being compiled
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(936,9): error C2297: '^': not valid as right operand has type 'const T'
+          with
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(937,9): error C2296: '^': not valid as left operand has type 'const T'
+          with
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(937,9): error C2297: '^': not valid as right operand has type 'const T'
+          with
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(938,9): error C2296: '^': not valid as left operand has type 'const T'
+          with
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(938,9): error C2297: '^': not valid as right operand has type 'const T'
+          with
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(54,7): error C2440: 'static_cast': cannot convert from 'X' to 'T'
+          with
+          [
+              X=glm::vec3
+          ]
+          and
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(54,7): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Users\FSapo\source\repos\Egon Rise Of The Angels - V1\Egon Rise Of The Angels\te_physics.cpp(107,36): message : see reference to function template instantiation 'glm::vec<3,float,glm::packed_highp>::vec<glm::vec3,glm::vec3,glm::vec3>(X,Y,Z)' being compiled
+          with
+          [
+              X=glm::vec3,
+              Y=glm::vec3,
+              Z=glm::vec3
+          ]
+D:\Users\FSapo\source\repos\Egon Rise Of The Angels - V1\Egon Rise Of The Angels\te_physics.cpp(107,25): message : see the first reference to 'glm::vec<3,float,glm::packed_highp>::vec' in 'te::TePhysics::eigenDecomposition'
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(55,7): error C2440: 'static_cast': cannot convert from 'Y' to 'T'
+          with
+          [
+              Y=glm::vec3
+          ]
+          and
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(55,7): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(56,7): error C2440: 'static_cast': cannot convert from 'Z' to 'T'
+          with
+          [
+              Z=glm::vec3
+          ]
+          and
+          [
+              T=float
+          ]
+D:\VulkanSDK\1.3.250.1\Include\glm\detail\type_vec3.inl(56,7): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  te_resource.cpp
+  te_texture.cpp
+D:\Users\FSapo\source\repos\Egon Rise Of The Angels - V1\Egon Rise Of The Angels\te_texture.cpp(13,13): warning C4101: 'channels': unreferenced local variable
+D:\Users\FSapo\source\repos\Egon Rise Of The Angels - V1\Egon Rise Of The Angels\te_texture.cpp(163,32): warning C4018: '<': signed/unsigned mismatch
+  re_pipeline.cpp
+  re_window.cpp
+  simple_render_system.cpp
+  te_buffer.cpp
+  te_buffer.hpp
+  te_camera.cpp
+  te_descriptors.cpp
+D:\Users\FSapo\source\repos\Egon Rise Of The Angels - V1\Egon Rise Of The Angels\te_descriptors.cpp(192,67): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  te_descriptors.hpp
+  te_device.cpp
+  main.cpp
+  te_game_object.cpp
+  te_game_object.hpp
+  te_model.cpp
+  te_model.hpp
+  Compiling...
+  te_renderer.cpp
+  te_swap_chain.cpp
+  war_sim.cpp

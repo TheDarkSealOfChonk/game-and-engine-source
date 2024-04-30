@@ -1,0 +1,28 @@
+﻿  keyboard_movement_controller.cpp
+  lodepng.cpp
+  point_light_system.cpp
+  re_pipeline.cpp
+  re_window.cpp
+  simple_render_system.cpp
+  te_buffer.cpp
+  te_buffer.hpp
+  te_camera.cpp
+  te_descriptors.cpp
+D:\Users\FSapo\source\repos\Egon Rise Of The Angels\Egon Rise Of The Angels\te_descriptors.cpp(193,67): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  te_descriptors.hpp
+  te_device.cpp
+  main.cpp
+  te_game_object.cpp
+  te_game_object.hpp
+  te_model.cpp
+  te_model.hpp
+  te_renderer.cpp
+  te_swap_chain.cpp
+  war_sim.cpp
+  Generating Code...
+x64\Debug\te_buffer.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\te_descriptors.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\te_game_object.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\te_model.obj : warning LNK4042: object specified more than once; extras ignored
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Egon Rise Of The Angels.vcxproj -> D:\Users\FSapo\source\repos\Egon Rise Of The Angels\x64\Debug\Egon Rise Of The Angels.exe
